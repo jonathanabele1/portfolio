@@ -26,7 +26,7 @@ export const content = {
   headshot: "/headshot.png",
 
   // Used for SEO, Open Graph, canonical URLs. Update after you deploy.
-  url: "https://your-domain.com",
+  url: "https://jonathanabele.com",
 
   // Short meta description (used in <head> and social previews).
   description:
@@ -63,9 +63,9 @@ export const content = {
 
   // ─── About section ───────────────────────────────────────────────────────
   about: {
-    heading: "Hey, I'm Jonathan.",
+    heading: "Hi, I'm Jonathan.",
     paragraphs: [
-      "I'm a software engineer at FactSet in Boston. I work on NLP pipelines that process hundreds of thousands of articles daily — building systems for sentiment analysis, entity tagging, and automated content curation.",
+      "I'm a software engineer at FactSet in Boston. I work on NLP pipelines that process hundreds of thousands of articles daily, building systems for sentiment analysis, entity tagging, and automated content curation.",
       "I studied computer science at the University of Michigan and graduated Summa Cum Laude. I like working on problems where software can replace tedious manual work, especially when it involves AI and large-scale data.",
     ],
     meta: [
@@ -122,14 +122,11 @@ export const content = {
     description: "",
     items: [
       {
-        title: "PantryAI",
-        description:
-          "A full-stack nutrition tracker (SwiftUI + FastAPI) with receipt scanning via OCR and LLMs, RAG-based food logging, and real-time pantry management.",
-        tags: ["SwiftUI", "FastAPI", "LLMs", "OCR", "RAG"],
+        title: "More on the way",
+        description: "Currently building a few new personal projects.",
+        tags: [],
         year: "2026",
-        href: "https://github.com/jonathanabele1/PantryApp" as
-          | string
-          | undefined,
+        href: undefined as string | undefined,
       },
     ],
   },
